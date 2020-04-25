@@ -1,0 +1,235 @@
+<IPM>
+<DE Id="1" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="2" Type="L" Length="2" MaxLength="19" SubElementFlag="N" PDSFlag="N" FieldName="MIM_CARD_NMBR"/>
+<DE Id="3" Type="F" Length="6" MaxLength="6"  SubElementFlag="Y" PDSFlag="N" FieldName="">
+	<SE Id="3-1" Type="F"  Length="2"  MaxLength="2" SubElementFlag="N" PDSFlag="N" FieldName="MIM_PROC_CODE"  />
+	<SE Id="3-2" Type="F"  Length="2"  MaxLength="2" SubElementFlag="N" PDSFlag="N" FieldName=""  />
+	<SE Id="3-3" Type="F"  Length="2"  MaxLength="2" SubElementFlag="N" PDSFlag="N" FieldName=""  />
+</DE>
+<DE Id="4" Type="F" Length="12" MaxLength="12"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_TRAN_AMNT"/>
+<DE Id="5" Type="F" Length="12" MaxLength="12"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_RECN_AMNT"/>
+<DE Id="6" Type="F" Length="12" MaxLength="12"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="7" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="8" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="9" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_RECN_RATE"/>
+<DE Id="10" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="11" Type="F" Length="6" MaxLength="6"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="12" Type="F" Length="12" MaxLength="12"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_TRAN_DATE"/>
+<DE Id="13" Type="F" Length="4" MaxLength="4"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="14" Type="F" Length="4" MaxLength="4"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="15" Type="F" Length="6" MaxLength="6"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="16" Type="F" Length="4" MaxLength="4"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="17" Type="F" Length="4" MaxLength="4"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="18" Type="F" Length="4" MaxLength="4"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="19" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="20" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="21" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="22" Type="F" Length="12" MaxLength="12"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_PSED_CODE "/>
+<DE Id="23" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_CARD_SEQN"/>
+<DE Id="24" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_FUNC_CODE"/>
+<DE Id="25" Type="F" Length="4" MaxLength="4"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_RESN_CODE"/>
+<DE Id="26" Type="F" Length="4" MaxLength="4"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_MCC_CODE"/>
+<DE Id="27" Type="F" Length="1" MaxLength="1"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="28" Type="F" Length="6" MaxLength="6"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="29" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="30" Type="F" Length="24" MaxLength="24"  SubElementFlag="Y" PDSFlag="N" FieldName="">
+	<SE Id="301" Type="F"  Length="12"  MaxLength="12" SubElementFlag="N" PDSFlag="N" FieldName="MIM_ORIG_AMT1"  />
+	<SE Id="302" Type="F"  Length="12"  MaxLength="12" SubElementFlag="N" PDSFlag="N" FieldName="MIM_ORIG_AMT2"  />
+</DE>
+<DE Id="31" Type="L" Length="2" MaxLength="99"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_ACRN_NMBR"/>
+<DE Id="32" Type="L" Length="2" MaxLength="11"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_AQUR_INDR"/>
+<DE Id="33" Type="L" Length="2" MaxLength="11"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_FAWD_INDR"/>
+<DE Id="34" Type="L" Length="2" MaxLength="28"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="35" Type="L" Length="2" MaxLength="37"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="36" Type="L" Length="3" MaxLength="104"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="37" Type="F" Length="12" MaxLength="12"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_RRNO_NMBR"/>
+<DE Id="38" Type="F" Length="6" MaxLength="6"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_APPR_CODE"/>
+<DE Id="39" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="40" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="41" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_TERM_CODE"/>
+<DE Id="42" Type="F" Length="15" MaxLength="15"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_METY_CODE"/>
+<DE Id="43" Type="L" Length="2" MaxLength="99"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_MERC_NAME"/>
+<DE Id="44" Type="L" Length="2" MaxLength="99"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="45" Type="L" Length="2" MaxLength="76"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="46" Type="L" Length="3" MaxLength="204"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="47" Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="48" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_DE_48" />
+<PDS Id="0001" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_MPPA_NMBR" />
+<PDS Id="0002" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_GCMS_IdFT" />
+<PDS Id="0003" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_LICP_IdFT" />
+<PDS Id="0005" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_MSGE_INDR" />
+<PDS Id="0006" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_BSSA_TYPE" />
+<PDS Id="0023" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_TERM_TYPE" />
+<PDS Id="0025" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_MREV_INDR" />
+<PDS Id="0026" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_FREV_INDR" />
+<PDS Id="0043" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_PRGM_RGId" />
+<PDS Id="0052" Type="L" Length="3" MaxLength="999" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_ECOM_SLIN" />
+<PDS Id="0057" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_TCAT_INDR" />
+<PDS Id="0080" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="Y" FieldName="MIM_AMNT_TAXV" />
+<PDS Id="0105" Type="L"  Length="3"  MaxLength="25" SubElementFlag="Y" PDSFlag="N" FieldName="0105">
+		<PDS Id="1" Type="F"  Length="3"  MaxLength="3" SubElementFlag="N" PDSFlag="N" FieldName="MIM_FILE_TYPE"  />
+		<PDS Id="2" Type="F"  Length="6"  MaxLength="6" SubElementFlag="N" PDSFlag="N" FieldName="MIM_FLRF_DATE"  />
+		<PDS Id="3" Type="F"  Length="11" MaxLength="11" SubElementFlag="N" PDSFlag="N" FieldName="MIM_PROC_IdFT"  />
+		<PDS Id="4" Type="F"  Length="5"  MaxLength="5" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SFSQ_NMBR" />
+</PDS>
+<PDS Id="0164" Type="L"  Length="3"  MaxLength="230" SubElementFlag="N" PDSFlag="N" FieldName="CURR_CROSS_RATE"/>
+<PDS Id="0122" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0137" Type="L" Length="3" MaxLength="20" SubElementFlag="N" PDSFlag="N" FieldName="MIM_FEEC_CTNM" />
+<PDS Id="0138" Type="L" Length="3" MaxLength="8" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SRCM_NUMB" />
+<PDS Id="0146" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="MIM_AMNT_TXNF" />
+<PDS Id="0148" Type="L" Length="3" MaxLength="60" SubElementFlag="N" PDSFlag="N" FieldName="MIM_CRCY_EXPS" />
+<PDS Id="0149" Type="L" Length="3" MaxLength="6" SubElementFlag="N" PDSFlag="N" FieldName="MIM_CRCY_OAMT" />
+<PDS Id="0158" Type="L" Length="3" MaxLength="20" SubElementFlag="Y" PDSFlag="N" FieldName="0158" >
+		<PDS Id="1" Type="F"  Length="3"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="2" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="3" Type="F"  Length="6" MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="4" Type="F"  Length="2"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName="MIM_ITRT_DSGR"/>
+		<PDS Id="5" Type="F"  Length="6"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="6" Type="F"  Length="2"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="7" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="8" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="9" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="10" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="11" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="12" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="13" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="14" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+		<PDS Id="15" Type="F"  Length="1"  MaxLength="25" SubElementFlag="N" PDSFlag="N" FieldName=""/>
+</PDS>
+<PDS Id="0159" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SETL_DATA" />
+<PDS Id="0160" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="MIM_STLD_MULT" />
+<PDS Id="0165" Type="L" Length="3" MaxLength="30" SubElementFlag="Y" PDSFlag="N" FieldName="0165">
+	<PDS Id="1" Type="F"  Length="1"  MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SETT_INDR"  />
+</PDS>
+<PDS Id="0170" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0171" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0172" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0173" Type="L" Length="3" MaxLength="30" SubElementFlag="N" PDSFlag="N" FieldName="MIM_LEGL_CNAM" />
+<PDS Id="0174" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0175" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0176" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="MIM_MASG_IdEN" />
+<PDS Id="0177" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="MIM_CROS_BORD" />
+<PDS Id="0178" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0189" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0190" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0191" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0195" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0196" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0197" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0200" Type="F" Length="3" MaxLength="6" SubElementFlag="N" PDSFlag="N" FieldName="MIM_FRAUD_NFDT" />
+<PDS Id="0228" Type="F" Length="1" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_RRDO_CODE" />
+<PDS Id="0230" Type="L" Length="3" MaxLength="3" SubElementFlag="N" PDSFlag="N" FieldName="MIM_FUFD_CODE" />
+<PDS Id="0241" Type="L" Length="3" MaxLength="7" SubElementFlag="N" PDSFlag="N" FieldName="MIM_MCOM_NMBR" />
+<PDS Id="0243" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0244" Type="L" Length="3" MaxLength="110" SubElementFlag="N" PDSFlag="N" FieldName="" />
+<PDS Id="0260" Type="L" Length="3" MaxLength="20" SubElementFlag="Y" PDSFlag="N" FieldName="0260" >
+		<SE1 Id="1" Type="F"  Length="2"  MaxLength="2" SubElementFlag="N" PDSFlag="N" FieldName=""  />
+		<SE2 Id="2" Type="F"  Length="1"  MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName=""  />
+		<SE3 Id="3" Type="F"  Length="1" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName=""  />
+</PDS>
+<PDS Id="0261" Type="F" Length="11" MaxLength="11" SubElementFlag="N" PDSFlag="N" FieldName="MIM_RMGA_CODE" />
+<PDS Id="0262" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_DOCM_INDR" />
+<PDS Id="0264" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_ORGN_RRRQ" />
+<PDS Id="0266" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_CHBO_DATA" />
+<PDS Id="0267" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SPFO_DATA" />
+<PDS Id="0268" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_PART_AMNT" />
+<PDS Id="0280" Type="L"  Length="3"  MaxLength="25" SubElementFlag="Y" PDSFlag="N" FieldName="">
+		<SE1 Id="1" Type="F"  Length="3"  MaxLength="3" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SFIL_TYPE"  />
+		<SE2 Id="2" Type="F"  Length="6"  MaxLength="6" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SFRF_DATE"  />
+		<SE3 Id="3" Type="F"  Length="11" MaxLength="11" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SPRC_IdFT"  />
+		<SE4 Id="4" Type="F"  Length="5"  MaxLength="5" SubElementFlag="N" PDSFlag="N" FieldName="MIM_SFSQ_NMBR" />
+</PDS>
+<PDS Id="0301" Type="L" Length="3" MaxLength="16" SubElementFlag="N" PDSFlag="N" FieldName="MIM_CHKS_AMNT" />
+<PDS Id="0306" Type="L" Length="3" MaxLength="8" SubElementFlag="N" PDSFlag="N" FieldName="MIM_FMSG_CONT" />
+<PDS Id="1001" Type="L" Length="3" MaxLength="30" SubElementFlag="N" PDSFlag="N" FieldName="MIM_AQFL_LIMT"/>
+<PDS Id="1002" Type="L" Length="3" MaxLength="30" SubElementFlag="N" PDSFlag="N" FieldName="MIM_MEFL_FBLT"/>
+<PDS Id="1003" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_AUTH_METH"/>
+<PDS Id="1004" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_HCRD_FSIZ"/>
+<PDS Id="1005" Type="L" Length="3" MaxLength="30" SubElementFlag="N" PDSFlag="N" FieldName="MIM_MCSH_FLMT"/>
+<PDS Id="1006" Type="L" Length="3" MaxLength="30" SubElementFlag="N" PDSFlag="N" FieldName="MIM_AQCH_FLMT"/>
+<PDS Id="1007" Type="L" Length="3" MaxLength="1" SubElementFlag="N" PDSFlag="N" FieldName="MIM_CDAR_OUCA"/>
+
+<PDS Id="1012" Type="L"  Length="3" MaxLength="3" SubElementFlag="N" PDSFlag="N" FieldName="MIM_RTCL_CODE" />
+<PDS Id="1015" Type="L"  Length="3" MaxLength="18" SubElementFlag="N" PDSFlag="N" FieldName="MIM_STMT_NAR1" />
+<PDS Id="1016" Type="L"  Length="3" MaxLength="18" SubElementFlag="N" PDSFlag="N" FieldName="MIM_STMT_NAR2" /> 
+<DE Id="49" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_TRAN_CRCY"/>
+<DE Id="50" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_RECN_CRCY"/>
+<DE Id="51" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="52" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="53" Type="L" Length="2" MaxLength="48"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="54" Type="L" Length="3" MaxLength="120"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_ADDT_AMNT"/>
+<DE Id="55" Type="L" Length="3" MaxLength="255"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_ICCD_EMVD"/>
+<DE Id="56" Type="L" Length="2" MaxLength="35"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="57" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="58" Type="L" Length="2" MaxLength="11"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="59" Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="60" Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="61" Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="62" Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="63" Type="L" Length="3" MaxLength="16"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_TRAN_LCId"/> 
+<DE Id="64" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="65" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="66" Type="L" Length="3" MaxLength="204"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="67" Type="F" Length="2" MaxLength="2"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="68" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="69" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="70" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="71" Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_MESG_NMBR"/>
+<DE Id="72" Type="L" Length="3" MaxLength="99"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_MESG_TEXT"/>
+<DE Id="73" Type="F" Length="6" MaxLength="6"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_ACTN_DATE"/>
+<DE Id="74" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="75" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="76" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="77" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="78" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="79" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="80" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="81" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="82" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="83" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="84" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="85" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="86" Type="F" Length="16" MaxLength="16"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="87" Type="F" Length="16" MaxLength="16"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="88" Type="F" Length="16" MaxLength="16"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="89" Type="F" Length="16" MaxLength="16"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="90" Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="91" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="92" Type="F" Length="3" MaxLength="3"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="93" Type="L" Length="2" MaxLength="11"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_DEST_CODE"/>
+<DE Id="94" Type="L" Length="2" MaxLength="11"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_ORIG_CODE"/>
+<DE Id="95" Type="L" Length="2" MaxLength="99"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_ISRF_DATA"/>
+<DE Id="96" Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="97" Type="F" Length="17" MaxLength="17"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="98" Type="F" Length="25" MaxLength="25"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="99" Type="L" Length="2" MaxLength="11"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="100"  Type="L" Length="2" MaxLength="11"  SubElementFlag="N" PDSFlag="N" FieldName="MIM_RECV_CODE"/>
+<DE Id="101"  Type="L" Length="2" MaxLength="17"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="102"  Type="L" Length="2" MaxLength="28"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="103"  Type="L" Length="2" MaxLength="28"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="104"  Type="L" Length="3" MaxLength="100"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="105"  Type="F" Length="16" MaxLength="16"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="106"  Type="F" Length="16" MaxLength="16"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="107"  Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="108"  Type="F" Length="10" MaxLength="10"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="109"  Type="L" Length="2" MaxLength="84"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="110"  Type="L" Length="2" MaxLength="84"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="111"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="112"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="113"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="114"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="115"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="116"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="117"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="118"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="119"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="120"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="121"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="122"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="123"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="124"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="125"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="126"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="127"  Type="L" Length="3" MaxLength="999"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+<DE Id="128"  Type="F" Length="8" MaxLength="8"  SubElementFlag="N" PDSFlag="N" FieldName=""/>
+</IPM>
