@@ -8,6 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,7 +50,8 @@ public class AppController {
 	@ApiOperation(value = "This is used to check the status of Microservice", notes="Doesn't require any input",response=String.class)
 	public ApiResponse hello() {
 		ApiResponse response =  new ApiResponse();
-		response.setApiResponse("API is Active!!");
+		Date today = new Date();
+		response.setApiResponse("API is Active!!" +today);
 		response.setApiError("");
 		response.setStatus(ApiResponse.STATUS_SUCCESS);
 		return response;
